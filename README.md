@@ -1,1 +1,14 @@
-env-scanner.py is a Python tool that scans multiple subdomains for exposed .env files. It automates checks by appending /.env to each target from a provided list (e.g., subdomain.txt). Discovered files are recorded to an output (default hasil.txt; override with -o). Useful for security research and bug bounties.
+## Overview
+
+Wordlist ini dirancang khusus untuk **dirsearch** dengan ribuan entri umum seperti:
+
+- Direktori admin (`/admin/`, `/panel/`, `/cpanel/`)
+- API endpoint (`/api/v1/`, `/graphql/`, `/rest/`)
+- File konfigurasi (`config.php`, `backup.sql`, `.env`)
+- Dan banyak lagi!
+
+Cocok untuk **penetration testing**, **bug bounty**, atau **reconnaissance**.
+
+## Install
+git clone https://github.com/u/dirsearch-wordlist.git
+cd dirsearch-wordlist

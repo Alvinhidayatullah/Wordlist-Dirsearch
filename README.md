@@ -10,5 +10,9 @@ Wordlist ini dirancang khusus untuk **dirsearch** dengan ribuan entri umum seper
 Cocok untuk **penetration testing**, **bug bounty**, atau **reconnaissance**.
 
 ## Install
-git clone https://github.com/u/dirsearch-wordlist.git
-cd dirsearch-wordlist
+- https://github.com/Alvinhidayatullah/Wordlist-Dirsearch.git
+- cd Wordlist-Dirsearch
+
+## Running Tools
+dirsearch -u https://example.com -w /home/Documents/Dirsearch-wordlist/wordlist.txt -o result.txt
+
